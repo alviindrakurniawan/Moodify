@@ -3,7 +3,6 @@ Aplikasi web yang mendeteksi bagaimana murid bereaksi terhadap materi maupun car
 
 NAMA KELOMPOK ANDA  <br/>
 Ketua Kelompok: Alvin Indra Kurniawan  <br/>
-<<<<<<< HEAD
 Anggota 1: Alvin Indra Kurniawan <br/>
 Anggota 2: Dimas Mahendra Nugraha <br/>
 Anggota 3: Raihan Ramadhan Hanif Mintarso <br/>
