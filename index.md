@@ -8,6 +8,9 @@ Raihan Ramadhan Hanif Mintarso (19/444066/TK/49262)
 
 Roby Attoillah (19/444068/TK/49264)
 
+
+
+
 “Project Senior Project TI”
 Instansi (Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik,
 Universitas Gadjah Mada)
