@@ -1,9 +1,9 @@
 # Moodify
-Aplikasi web yang mendeteksi bagaimana murid bereaksi terhadap materi maupun cara mengajar yang dilakukan oleh guru tersebut. 
+Aplikasi web yang mendeteksi bagaimana murid bereaksi terhadap materi maupun cara mengajar yang dilakukan oleh guru tersebut. <br/>
 
-NAMA KELOMPOK ANDA
-Ketua Kelompok: Alvin Indra Kurniawan
-Anggota 1: Dimas Mahendra Nugraha
-Anggota 2: Raihan Ramadhan Hanif Mintarso
-Anggota 3: Roby Attoillah
-Anggota 4: Alvin Indra Kurniawan
+NAMA KELOMPOK ANDA  <br/>
+Ketua Kelompok: Alvin Indra Kurniawan  <br/>
+Anggota 1: Dimas Mahendra Nugraha  <br/>
+Anggota 2: Raihan Ramadhan Hanif Mintarso  <br/>
+Anggota 3: Roby Attoillah  <br/>
+Anggota 4: Alvin Indra Kurniawan  <br/>
