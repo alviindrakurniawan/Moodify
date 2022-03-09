@@ -44,28 +44,40 @@ Key Competitive Advantage & Unique Value: terdapat fitur lain yang hanya dapat d
 
 KOMPETITOR 2
 Nama: Microsoft Team
+
 Jenis Kompetitor: [Direct Competitors]
+
 Jenis Produk: Online Meet
+
 Target Customer: Masyarakat Umum
+
 Kelebihan:
   Mudah digunakan
   freemium
+  
 Kekurangan
   belum ada analysis ekspresi
   masih fungsi Umum
+  
 Key Competitive Advantage & Unique Value: Terdapat fitur lain yang hanya dapat digunakan oleh pengguna berbayar, terintegrasi dengan layanan Microsoft lainnya dan aplikasi pihak ke tiga
 
 KOMPETITOR 3
 Nama: Noldus FaceReader
+
 Jenis Kompetitor: [Direct Competitors]
+
 Jenis Produk: Software
+
 Target Customer: Peneliti
+
 Kelebihan:
   menghasilkan analisis emosi dengan waktu yang relatif cepat
   hanya memerlukan webcam pengguna
+  
 Kekurangan:
   dapat diintegrasikan dengan aplikasi lain
   versi embedded memiliki harga yang mahal (20.000 USD)
+  
 Key Competitive Advantage & Unique Value: Produk Noldus FaceReader mampu menghasilkan analisis emosi wajah dengan instan dan dapat diintegrasikan dengan aplikasi lain
 
 
