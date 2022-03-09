@@ -3,7 +3,8 @@ Aplikasi web yang mendeteksi bagaimana murid bereaksi terhadap materi maupun car
 
 NAMA KELOMPOK ANDA  <br/>
 Ketua Kelompok: Alvin Indra Kurniawan  <br/>
-Anggota 1: Dimas Mahendra Nugraha  <br/>
-Anggota 2: Raihan Ramadhan Hanif Mintarso  <br/>
-Anggota 3: Roby Attoillah  <br/>
-Anggota 4: Alvin Indra Kurniawan (Bapak Ketua) <br/>
+Anggota 1: Alvin Indra Kurniawan <br/>
+Anggota 2: Dimas Mahendra Nugraha - 19/444048/TK/49244 <br/>
+Anggota 3: Raihan Ramadhan Hanif Mintarso  <br/>
+Anggota 4: Roby Attoillah <br/>
+
