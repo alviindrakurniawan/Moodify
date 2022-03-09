@@ -1,37 +1,77 @@
-## Welcome to GitHub Pages
+Nama Kelompok : Pejuang_ABET
 
-You can use the [editor on GitHub](https://github.com/alviindrakurniawan/Moodify/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Alvin Indra Kuniawan (19/439808/TK/48538)
+Dimas Mahendra Nugraha (19/444048/TK/49244)
+Raihan Ramadhan Hanif Mintarso (19/444066/TK/49262) 
+Roby Attoillah (19/444068/TK/49264)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+“Project Senior Project TI”
+Instansi (Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik,
+Universitas Gadjah Mada)
 
-### Markdown
+Nama Produk: 
+Moodify
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Jenis Produk: 
+Aplikasi Web 
 
-```markdown
-Syntax highlighted code block
+Latar Belakang:
+Pada masa pandemi ini, Semua pembelajaran dilaksanakan secara online baik menggunakan platform Google meets atau Microsoft Teams. Seringkali dalam kegiatan belajar mengajar, guru kurang memperhatikan bagaimana muridnya bereaksi terhadap materi atau cara mengajar dari guru tersebut. Aplikasi berbasis web kami hadir untuk mendeteksi bagaimana murid bereaksi terhadap materi maupun cara mengajar yang dilakukan oleh guru tersebut. 
 
-# Header 1
-## Header 2
-### Header 3
+Rumusan Permasalahan:
+  1.Bagaimana Pendeteksi Ekspresi Wajah dapat mempermudah dalam mengetahui respon murid terhadap pembelajaran?
+  2.Bagaimana dengan memanfaatkan jaringan komputer, kecerdasan buatan (AI), dan komputasi awan (cloud) dalam Aplikasi Pendeteksi Ekspresi Wajah?
+ 
+IDE Solusi:
+Aplikasi Web Pendeteksi Ekspresi Wajah Pada Proses Pembelajaran
 
-- Bulleted
-- List
+Analisis Kompetitor :
 
-1. Numbered
-2. List
+KOMPETITOR 1
+Nama: Google Meet
+Jenis Kompetitor: [Direct Competitor]
+Jenis Produk: Online Meet
+Target Customer:
+Masyarakat Umum
+Kelebihan:
+  Mudah digunakan
+  freemium
+Kekurangan:
+  belum ada analysis ekspresi
+  masih fungsi Umum
+Key Competitive Advantage & Unique Value: terdapat fitur lain yang hanya dapat digunakkan oleh pengguna berbayar, terintegrasi dengan layanan google lainnya
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+KOMPETITOR 2
+Nama: Microsoft Team
+Jenis Kompetitor: [Direct Competitors]
+Jenis Produk: Online Meet
+Target Customer: Masyarakat Umum
+Kelebihan:
+  Mudah digunakan
+  freemium
+Kekurangan
+  belum ada analysis ekspresi
+  masih fungsi Umum
+Key Competitive Advantage & Unique Value: Terdapat fitur lain yang hanya dapat digunakan oleh pengguna berbayar, terintegrasi dengan layanan Microsoft lainnya dan aplikasi pihak ke tiga
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+KOMPETITOR 3
+Nama: Noldus FaceReader
+Jenis Kompetitor: [Direct Competitors]
+Jenis Produk: Software
+Target Customer: Peneliti
+Kelebihan:
+  menghasilkan analisis emosi dengan waktu yang relatif cepat
+  hanya memerlukan webcam pengguna
+Kekurangan:
+  dapat diintegrasikan dengan aplikasi lain
+  versi embedded memiliki harga yang mahal (20.000 USD)
+Key Competitive Advantage & Unique Value: Produk Noldus FaceReader mampu menghasilkan analisis emosi wajah dengan instan dan dapat diintegrasikan dengan aplikasi lain
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alviindrakurniawan/Moodify/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+
+
