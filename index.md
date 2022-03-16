@@ -90,7 +90,7 @@ membantu mengajar untuk dapat mengetahui ekspresi dan suasana dari para siswa ke
 Pengajar, Psikolog, Murid  
 
 **c. Use case diagram**  
-![Use Case Diagram: Moodify](/useCase_Diagram.jpg)
+![Use Case Diagram: Moodify](/assets/useCase_Diagram.jpg)
 
 **c. Functional requirements untuk use case yang telah dirancang**  
 
@@ -102,11 +102,11 @@ Pengajar, Psikolog, Murid
 | Teacher Analysis    | Website akan melakukan analisis kinerja guru.                                                                             |     
 
 **e. Entity Relationship Diagram**  
-![ERD: Moodify](/ER_Diagram.jpg)
+![ERD: Moodify](/assets/ER_Diagram.jpg)
 
 **f. Low-fidelity Wireframe**  
-![Low Fidelity Wireframe: Moodify](/low_Fidelity.jpg)  
-![High Fidelity Wireframe: Moodify](/high_Fidelity.jpg)
+![Low Fidelity Wireframe: Moodify](/assets/low_Fidelity.jpg)  
+![High Fidelity Wireframe: Moodify](/assets/high_Fidelity.jpg)
 
 **g. Gantt-Chart pengerjaan proyek dalam kurun waktu 1 semester**
-![Gantt-Chart proyek: Moodify](/gantt-chart.jpg)
+![Gantt-Chart proyek: Moodify](/assets/gantt-chart.jpg)
