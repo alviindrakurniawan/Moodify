@@ -93,12 +93,13 @@ Pengajar, Psikolog, Murid
 ![Use Case Diagram: Moodify](/useCase_Diagram.jpg)
 
 **c. Functional requirements untuk use case yang telah dirancang**  
-| FR  | Deskripsi                         |
-| --- |---------------------------------- |
-| Video Call | Website akan meyediakan layanan tatap muka secara online dengan kapasitas kelas pembelajaran |
-| Mood Identification | Website akan melakukan identifikasi ekspresi murid dengan menggunakan machine learning |
-| Student Analysis | Website akan melakukan analisis terhadap hasil identifikasi machine learning, untuk kemudian mengukur variabel dari murid |
-| Teacher Analysis | Website akan melakukan analisis kinerja guru. |
+
+| FR                  | Deskripsi                                                                                                                 |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Video Call          | Website akan meyediakan layanan tatap muka secara online dengan kapasitas kelas pembelajaran                              |
+| Mood Identification | Website akan melakukan identifikasi ekspresi murid dengan menggunakan machine learning                                    |
+| Student Analysis    | Website akan melakukan analisis terhadap hasil identifikasi machine learning, untuk kemudian mengukur variabel dari murid |
+| Teacher Analysis    | Website akan melakukan analisis kinerja guru.                                                                             |     
 
 **e. Entity Relationship Diagram**  
 ![ERD: Moodify](/ER_Diagram.jpg)
