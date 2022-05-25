@@ -28,3 +28,6 @@ pada bagian backend terdapat beberaoa flow yang berlangsung:<br/>
 4. text yang telah di ringkas ditampilkan pada web Moodify.<br/>
 <br/>
 Skematik masih dapat berubah sesuai dengan pertimbangan dan setelah mendapatkan ilmu baru ketika melakukan praktikum di modul selanjutnya.<br/>
+
+model :
+https://colab.research.google.com/drive/1SzQSpVmhTLIAmHCHBXOhMi0VhsQzsapQ?usp=sharing
