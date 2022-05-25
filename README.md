@@ -9,7 +9,7 @@ Anggota 3: Roby Attoillah - 19/444068/TK/49264  <br/>
 Anggota 4: Raihan Ramadhan Hanif Mintarso - 19/444066/TK/49262 <br/>
 
 
-aplikasi web ini akan memproses photo buku fisik yang kita input, setelahnya akan diproses dam akan menampilkan text hasil ringkasan dari foto buku.
+<!-- aplikasi web ini akan memproses photo buku fisik yang kita input, setelahnya akan diproses dam akan menampilkan text hasil ringkasan dari foto buku.
 untuk skematik kerangkanya seperti berukut>> <br/>
 
 #### Skematik
@@ -30,4 +30,4 @@ pada bagian backend terdapat beberaoa flow yang berlangsung:<br/>
 Skematik masih dapat berubah sesuai dengan pertimbangan dan setelah mendapatkan ilmu baru ketika melakukan praktikum di modul selanjutnya.<br/>
 
 model :
-https://colab.research.google.com/drive/1SzQSpVmhTLIAmHCHBXOhMi0VhsQzsapQ?usp=sharing
+https://colab.research.google.com/drive/1SzQSpVmhTLIAmHCHBXOhMi0VhsQzsapQ?usp=sharing -->
