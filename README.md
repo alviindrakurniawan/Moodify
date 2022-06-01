@@ -1,7 +1,13 @@
-# Moodify
-Aplikasi web yang yang digunakan untuk translasi dan  meringkas bacaan dari foto buku fisik. <br/>
+# Batik Detection
+Aplikasi web deteksi batik dengan 6 kelas :
+1. Batik Dayak
+2. Batik Megamendung
+3. Batik Parang
+4. Batik Poleng
+5. Batik Ikat celup
+6. Batik Kawung. <br/>
 
-NAMA KELOMPOK ANDA  <br/>
+Pejuang_ABET <br/>
 Ketua Kelompok: Alvin Indra Kurniawan  <br/>
 Anggota 1: Alvin Indra Kurniawan -19/439808/TK/48538 <br/>
 Anggota 2:  Dimas Mahendra Nugraha - 19/444048/TK/49244 <br/>
