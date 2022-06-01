@@ -1,39 +1,41 @@
-# Batik Detection
-Aplikasi web deteksi batik dengan 6 kelas :
-1. Batik Dayak
-2. Batik Megamendung
-3. Batik Parang
-4. Batik Poleng
-5. Batik Ikat celup
-6. Batik Kawung. <br/>
+
+# Moodify
+
+Aplikasi web untuk dapat mendeteksi dan mengenali motif-motif batik yang ada di indonesia <br/>
 
 Pejuang_ABET <br/>
 Ketua Kelompok: Alvin Indra Kurniawan  <br/>
 Anggota 1: Alvin Indra Kurniawan -19/439808/TK/48538 <br/>
-Anggota 2:  Dimas Mahendra Nugraha - 19/444048/TK/49244 <br/>
-Anggota 3: Roby Attoillah - 19/444068/TK/49264  <br/>
+Anggota 2: Dimas Mahendra Nugraha - 19/444048/TK/49244 <br/>
+Anggota 3: Roby Attoillah - 19/444068/TK/49264 <br/>
 Anggota 4: Raihan Ramadhan Hanif Mintarso - 19/444066/TK/49262 <br/>
 
+# batik-detection
 
-<!-- aplikasi web ini akan memproses photo buku fisik yang kita input, setelahnya akan diproses dam akan menampilkan text hasil ringkasan dari foto buku.
-untuk skematik kerangkanya seperti berukut>> <br/>
+Aplikasi web deteksi batik dengan 6 kelas :
 
-#### Skematik
-![image info](./assets/skematik_PR5.png) <br/>
+1. Batik Dayak
+2. Batik Megamendung
+3. Batik Parang
+4. Batik Poleng 
+5. Batik Ikat celup 
+6. Batik Kawung. <br/>
 
-#### Paparan 
-Pada Project ini, menggunakan NextJs sebagai framework ReactJs untuk keperluan frontendnya. dan akan dideploy menggunakan azure app service.
-pada bagian frontend nantinya akan menuntun pengguna untuk melakukan input foto buku fisik yang ingin mereka dapatkan hasil ringkasannya. <br/>
+## Cara menjalankan API pada komputer Anda
 
-setelah foto tersebut diterima selanjutnya akan diteruskan ke azure app service untuk keperluan backend yang akan disimpan data sementaranya di CosmosDB.<br/>
-pada bagian backend terdapat beberaoa flow yang berlangsung:<br/>
+1. Pastikan Anda sudah menginstall Anaconda.
+2. Buka terminal/command prompt/power shell.
+3. Buat virtual environment dengan\
+   `conda create -n <nama-environment> python=3.9`
+4. Aktifkan virtual environment dengan\
+   `conda activate <nama-environment>`
+5. Install semua dependency/package Python dengan\
+   `pip install -r requirements.txt`
+6. Jalankan API menggunakan perintah\
+   `python app.py`
+7. Anda akan diberikan URL untuk membuka website berupa `localhost:5000/` atau `127.0.0.1:5000/`.
 
-1. Foto akan diproses dan dibaca oleh azure cognitive service-computer vision dan didapatkan isi text dari foto yang diinput tadi.<br/>
-2. setelah itu text akan ditranslate dengan menggunakan azure cognitive service-Translator dan didapatkan diterjemahkan ke bahasa yang diinginkan<br/>
-3. setelah itu text yang sudah diterjemahkan, selanjutnya di rinkas pada ML yaitu NLTK dengan menggunakan text summarization.<br/>
-4. text yang telah di ringkas ditampilkan pada web Moodify.<br/>
-<br/>
-Skematik masih dapat berubah sesuai dengan pertimbangan dan setelah mendapatkan ilmu baru ketika melakukan praktikum di modul selanjutnya.<br/>
+## Live Demo in heroku:
 
-model :
-https://colab.research.google.com/drive/1SzQSpVmhTLIAmHCHBXOhMi0VhsQzsapQ?usp=sharing -->
+https://batik-detection.herokuapp.com/
+

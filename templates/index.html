@@ -1,95 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-            rel="stylesheet"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Deteksi Motif batik</title>
+  </head>
+  <body
+    class="h-full w-screen font-sans flex flex-col justify-center items-start"
+  >
+    <header
+      class="flex items-center justify-between px-8 h-20 w-full border-b-2 bg-white"
+    >
+      <h1 class="text-xl font-black">🎴 Moodify</h1>
+      <div></div>
+    </header>
+    <main class="flex flex-col justify-center items-center w-full h-full">
+      <section
+        class="flex flex-row description justify-between w-3/5 my-20 pb-12 border-b-2 px-16 py-5"
+      >
+        <div class="description flex flex-col w-3/5">
+          <h3 class="text-2xl font-bold mb-4">Latar Belakang</h3>
+          <p class="text-lg font-reguler">
+            Batik merupakan salah satu ciri khas budaya Indonesia yang telah
+            dikenal dunia. Bahkan UNESCO telah menetapkan batik Indonesia
+            sebagai Warisan Kemanusiaan untuk Budaya Lisan dan Non-bendawi sejak
+            Oktober 2009 sehingga h al ini menjadi suatu kekayaan Indonesia yang
+            patut untuk dilestarikan. Diantara c ara pelestarian batik adalah
+            dengan mengenalkan berbagai motif dan corak batik Indonesia yang
+            beragam. Pengenalan motif batik dapat dilakukan dengan memanfaatkan
+            teknologi yang semakin berkembang, salah satunya adalah dengan
+            memanfaatkan kecerdasan buatan. Sistem yang dikembangkan menggunakan
+            metode klasifikasi untuk mengidentifikasi jenis batik berdasarkan
+            motifnya.
+          </p>
+        </div>
+        <img
+          src="{{ url_for('static', filename='batik-background.jpg') }}"
+          class="w-64 rounded-md"
         />
-        <title>Motif Batik Detection</title>
-    </head>
-    <body>
-        <section
-            class="
-                flex
-                justify-center
-                items-center
-                w-screen
-                h-screen
-                bg-yellow-300
-            "
+      </section>
+      <p class="text-xl font-medium mb-8">
+        yuk... coba kenali batik disekitarmu dengan Moodify 💖👍
+      </p>
+      <section
+        id="image-detection"
+        class="flex flex-row justify-center border-2 border-transparent rounded-2xl bg-blue-50 items-center h-96 w-3/4 mb-20"
+      >
+        <div
+          id="input-image"
+          class="flex flex-col justify-center items-center w-1/2"
         >
-            <main
-                class="
-                    flex flex-col
-                    justify-center
-                    items-center
-                    p-16
-                    bg-white
-                    rounded-lg
-                "
-            >
-                <h1 class="text-3xl text-bold">Motif Batik Detection</h1>
+          <p
+            id="title"
+            class="uppercase text-left text-2xl font-bold leading-none"
+          >
+            Kenali Motif Kain Batik
+          </p>
+          {% if uploaded_image %}
+          <img
+            src="{{ url_for('send_uploaded_image', filename=uploaded_image) }}"
+            class="mt-4 mb-4 w-64 rounded-md"
+          />
+          {% else %}
+          <div
+            class="flex flex-col justify-center items-center my-4 w-96 h-60 border-4 bg-blue-100 border-blue-400 rounded-xl"
+          >
+            <p class="text-6xl mb-4">🌑</p>
+            <p class="text-center text-xl font-semibold text-blue-500">
+              Gambar kosong
+            </p>
+          </div>
+          {% endif %} {% if prediction %}
+          <p class="text-xl font-medium">Motif Batik</p>
+          <p class="text-3xl font-bold">⚡{{prediction}}⚡</p>
+          {% endif %}
+        </div>
+        <form method="post" enctype="multipart/form-data" class="flex flex-col">
+          <input
+            type="file"
+            name="image"
+            class="mb-4 p-4 border-4 border-gray-200 rounded-md bg-gray-100"
+          />
+          <button type="submit" class="p-4 bg-blue-500 text-white rounded-md">
+            Cari Sekarang
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer
+      class="flex py-20 justify-center items-center h-auto w-full border-t-2"
+    >
+      <div class="photo-section flex flex-row justify-between px-20 w-4/5">
+        <h1 class="text-xl font-black">🎴 Moodify</h1>
 
-                {% if uploaded_image %}
-                <img
-                    src="{{ url_for('send_uploaded_image', filename=uploaded_image) }}"
-                    class="mt-8 mb-4 h-48 border-8 border-gray-200 rounded-md"
-                />
-                {% else %}
-                <div
-                    class="
-                        flex
-                        justify-center
-                        items-center
-                        my-8
-                        w-48
-                        h-48
-                        border-8 border-gray-200
-                        rounded-md
-                    "
-                >
-                    <p class="text-center">
-                        Masukkan gambar batik
-                    </p>
-                </div>
-                {% endif %} {% if prediction %}
-                <p class="mb-8">Hasil Prediksi: {{prediction}}</p>
-                {% endif %}
-
-                <form
-                    method="post"
-                    enctype="multipart/form-data"
-                    class="flex flex-col"
-                >
-                    <input
-                        type="file"
-                        name="image"
-                        class="
-                            mb-4
-                            p-4
-                            border-8 border-gray-200
-                            rounded-md
-                            bg-gray-100
-                        "
-                    />
-                    <button
-                        type="submit"
-                        class="p-4 bg-blue-500 text-white rounded-md"
-                    >
-                        Prediksi Gambar
-                    </button>
-                </form>
-            </main>
-        </section>
-        <footer class="flex gap-x-8 justify-center items-center h-32 bg-white-300">
-            <img
-                class="h-20"
-                src="https://i.postimg.cc/68CVjdgQ/seniorproject.jpg"
-                alt=""
-            />
-        </footer>
-    </body>
+        <p>
+          Ketua Kelompok: Alvin Indra Kurniawan <br />
+          Anggota 1: Alvin Indra Kurniawan -19/439808/TK/48538 <br />
+          Anggota 2: Dimas Mahendra Nugraha - 19/444048/TK/49244 <br />
+          Anggota 3: Roby Attoillah - 19/444068/TK/49264 <br />
+          Anggota 4: Raihan Ramadhan Hanif Mintarso - 19/444066/TK/49262 <br />
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
