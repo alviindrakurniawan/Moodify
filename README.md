@@ -35,7 +35,4 @@ Aplikasi web deteksi batik dengan 6 kelas :
    `python app.py`
 7. Anda akan diberikan URL untuk membuka website berupa `localhost:5000/` atau `127.0.0.1:5000/`.
 
-## Live Demo in heroku:
-
-https://batik-detection.herokuapp.com/
 
